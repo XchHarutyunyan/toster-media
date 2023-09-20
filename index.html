@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CUSHION</title>
+  <link rel="icon" href="assets/images/mini_logo.png" type="image/png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="header">
+    <p>SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA</p>
+  </div>
+  <div class="under-header">
+    <img src="assets/images/cushion_logo.png" alt="cushion">
+    <p>orthopedic slippers</p>
+  </div>
+  <div class="banner">
+    <div class="limited-offer">
+      <p>Limited offer</p>
+      <p id="timer"></p>
+    </div>
+    <div class="price-block">
+      <p>R 250.00</p>
+      <p>R 160.00</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="info">
+      <p class="review">Excellent 4.8/5</p>
+      <img src="./assets/images/company_logo.png" alt="company">
+      <p class="best-selling">best selling</p>
+    </div>
+    <p class="title">Orthopedic Slippers</p>
+    <div class="slider">
+      <div class="slider-img" id="slider-img"></div>
+      <div class="slider-items" id="slider-items"></div>
+    </div>
+    <div class="product-info">
+      <p>Fast Delivery: <span>2-4 days from SA</span></p>
+      <p>In Stock: <span>Shipping from Johannesburg</span></p>
+    </div>
+    <div class="rating-block">
+      <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <p>(10)</p>
+    </div>
+    <div class="product-options">
+      <div class="color">
+        <p class="option-title">color</p>
+        <div class="dropdown">
+          <button onclick="selectColor()" class="dropbtn">
+            <p id="color-drop-button-text">black</p>
+            <img id="color-drop-arrow" src="./assets/images/arrow.png" alt="arrow">
+          </button>
+          <div id="color-dropdown" class="dropdown-content">
+            <p class="active">Black</p>
+            <p>Orange</p>
+            <p>Pink</p>
+            <p>Yellow</p>
+          </div>
+        </div>
+      </div>
+      <div class="size">
+        <p class="option-title">size</p>
+        <div class="dropdown">
+          <button onclick="selectSize()" class="dropbtn">
+            <p id="size-drop-button-text">2</p>
+            <img id="size-drop-arrow" src="./assets/images/arrow.png" alt="arrow">
+          </button>
+          <div id="size-dropdown" class="dropdown-content">
+            <p class="active">2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="buy">buy now</button>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
